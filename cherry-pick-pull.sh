@@ -30,7 +30,11 @@ declare -r REPO_ROOT
 cd "${REPO_ROOT}"
 
 STARTINGBRANCH=$(git symbolic-ref --short HEAD)
+<<<<<<< HEAD
 declare -r STARTINGBRANCHAAA
+=======
+declare -r STARTINGBRANCHHH
+>>>>>>> e675853... Merge pull request #92 from you06/patch-test
 declare -r REBASEMAGIC="${REPO_ROOT}/.git/rebase-apply"
 DRY_RUN=${DRY_RUN:-""}
 REGENERATE_DOCS=${REGENERATE_DOCS:-""}
